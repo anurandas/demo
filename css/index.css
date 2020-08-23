@@ -15,8 +15,16 @@
 }
 
 .heading-two{
+    margin-top: 10px;
+    margin-left: 30px;
     font-size: 28px;
-    font-family: Georgia Regular;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    font-variant-caps: unicase;
+    font-weight: 600;
+    margin-bottom: -3px;
+    transform: scale(1.4,1.65);
+    
 }
 
 .heading-four{
@@ -26,6 +34,7 @@
 }
 
 .heading-five{
+    margin-top: 5px;
     font-size: 12px;
     font-family: Arial;
     font-weight: bold;
@@ -169,15 +178,24 @@ footer{
     font-size: 48px;
     font-family: Georgia Bold;
     font-weight: bold;
+    color: #565656;
+}
+
+
+.question-option{
+    width: 50%;
+    display: inline-block;
+    margin-left: 12vw;
 }
 
 .question{
     margin-top: -30px;
     margin-left: 12vw;
-    margin-bottom: -10px;
+    margin-bottom: -15px;
     font-size: 18px;
-    font-family: Georgia Bold;
-    font-weight:900;
+    font-family: Georgia;
+    font-weight: bolder;
+    color: #565656;
 }
 
 .question-inst{
