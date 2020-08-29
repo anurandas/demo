@@ -7,6 +7,12 @@
     padding: 5px; 
 }
 
+.logo{
+    height: 10vh;
+    width: auto;
+}
+
+
 .heading-one{
     font-size: 18px;
     font-family: Georgia Bold;
