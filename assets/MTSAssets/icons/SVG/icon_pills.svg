@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>MTS/Icon/pills</title>
+    <desc>Created with Sketch.</desc>
+    <g id="MTS/Icon/pills" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" stroke="#046E73" stroke-width="1.6" x="11.2338113" y="16.8" width="13.4" height="6.4" rx="3.2"></rect>
+        <rect id="Rectangle-Copy" stroke="#046E73" stroke-width="1.6" transform="translate(9.131728, 11.131728) rotate(-45.000000) translate(-9.131728, -11.131728) " x="2.43172798" y="7.93172798" width="13.4" height="6.4" rx="3.2"></rect>
+        <line x1="7.01040764" y1="9.01040764" x2="11.2530483" y2="13.2530483" id="Path-3-Copy-2" stroke="#046E73" stroke-width="1.6"></line>
+        <line x1="17.9338113" y1="17" x2="17.9338113" y2="23" id="Path-3-Copy" stroke="#046E73" stroke-width="1.6"></line>
+    </g>
+</svg>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="208px" height="30px" viewBox="0 0 208 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>MTS / Button Ghost / Static Copy@1x</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Low-Fi-v1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="My-Profile-1" transform="translate(-745.000000, -463.000000)">
+            <g id="MTS-/-Button-Ghost-/-Static" transform="translate(746.000000, 464.000000)">
+                <rect id="Rectangle" stroke="#046E73" fill="#FFFFFF" x="0" y="0" width="206" height="28" rx="14"></rect>
+                <g id="MTS-/-Button-/-Text" transform="translate(0.000000, 8.000000)" fill="#046E73" font-family="Arial-BoldMT, Arial" font-size="12" font-weight="bold">
+                    <text id="Next">
+                        <tspan x="40.9960938" y="11">DELETE MY PROFILE</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

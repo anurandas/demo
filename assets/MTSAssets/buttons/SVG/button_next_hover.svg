@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="109px" height="28px" viewBox="0 0 109 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>MTS / Button / Hover@1x</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="MTS-/-Component-/-Onboarding-/-Next-+-All-/-Hover" transform="translate(-9.000000, 1.000000)">
+            <g id="MTS-/-Button-/-Orange-/-Hover" transform="translate(9.000000, -1.000000)">
+                <rect id="Rectangle" fill="#E6583B" x="0" y="0" width="109" height="28" rx="14"></rect>
+                <g id="MTS-/-Button-/-Text" stroke-width="1" transform="translate(0.000000, 5.000000)" fill="#FFFFFF" font-family="Arial-BoldMT, Arial" font-size="12" font-weight="bold" letter-spacing="0.5" line-spacing="18">
+                    <text id="Next">
+                        <tspan x="37.4980469" y="11">NEXT</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

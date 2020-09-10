@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html,body
+        {
+            width: 100%;
+            height: 100%;
+            margin: 0px;
+            padding: 0px;
+            /* overflow-x: hidden;  */
+        }
+        .radiocontainer {
+            display: block;
+            position: relative;
+            padding-left: 35px;
+            margin-bottom: 12px;
+            cursor: pointer;
+            width: max-content;
+            margin-right: 10px;
+        }
+        
+        /* Hide the browser's default radio button */
+        .radiocontainer input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+        }
+        
+        /* Create a custom radio button */
+        .checkmark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 25px;
+            width: 25px;
+            background: url("./assets/MTSAssets/checkboxes/SVG/checkbox_unchecked.svg") no-repeat;
+            
+        }
+
+        .radiocontainer input:checked ~ .checkmark:after {
+            display: block;
+        }
+        /* When the radio button is checked*/
+        .radiocontainer input:checked ~ .checkmark {
+            background: url("./assets/MTSAssets/checkboxes/SVG/checkbox_checked.svg") no-repeat;
+        }
+    </style>
+</head>
+
+
+
+<body>
+    
+
+    <div class="header">
+        <img class="logo" src="css/MTSlogo-whiteHorizontal.jpeg" alt="">
+    </div>
+
+    
+    <hr style="border-color:#5CB07D;">
+    
+
+    <div class="container question-body" style="width: 100vw;">
+        <div class="question-whole" >
+            <div class="question-id">3.</div>
+            <div class="question">
+                <p>
+                    Where do you currently have evidence of disease?
+                </p>
+            </div>
+            <br>
+            <div class="question-option" >
+                <form class="form-checkbox" style="width:max-content"> 
+                
+                    <table>
+                        <tbody>
+                          <tr>
+                            <td>
+                                <label class="radiocontainer" >
+                                    <span class="p-three" style="margin-bottom: -50px">Bone</span> 
+                                    <input type="radio" name="radio">
+                                    <span class="checkmark"></span>
+                                  </label>
+                            </td>
+                            <td>
+                                <label class="radiocontainer" >
+                                    <span class="p-three" style="margin-bottom: -50px">Loptomeninges<span class="question-other-icon"></span></span> 
+                                    <input type="radio" name="radio">
+                                    <span class="checkmark"></span>
+                                  </label>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                                <label class="radiocontainer" >
+                                    <span class="p-three" style="margin-bottom: -50px">Liver</span> 
+                                    <input type="radio" name="radio">
+                                    <span class="checkmark"></span>
+                                  </label>
+                            </td>
+                            <td>
+                                <label class="radiocontainer" >
+                                    <span class="p-three" style="margin-bottom: -50px">Abdominal Linings<span class="question-other-icon"></span></span> 
+                                    <input type="radio" name="radio">
+                                    <span class="checkmark"></span>
+                                  </label>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                                <label class="radiocontainer" >
+                                    <span class="p-three" style="margin-bottom: -50px">Lung</span> 
+                                    <input type="radio" name="radio">
+                                    <span class="checkmark"></span>
+                                  </label>
+                            </td>
+                            <td>
+                                <label class="radiocontainer" >
+                                    <span class="p-three" style="margin-bottom: -50px">Digestive Organs<span class="question-other-icon"></span></span> 
+                                    <input type="radio" name="radio">
+                                    <span class="checkmark"></span>
+                                  </label>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                                <label class="radiocontainer" >
+                                    <span class="p-three" style="margin-bottom: -50px">Brain</span> 
+                                    <input type="radio" name="radio">
+                                    <span class="checkmark"></span>
+                                  </label>
+                            </td>
+                            <td>
+                                <label class="radiocontainer" >
+                                    <span class="p-three" style="margin-bottom: -50px">Reproductive Organs<span class="question-other-icon"></span></span> 
+                                    <input type="radio" name="radio">
+                                    <span class="checkmark"></span>
+                                  </label>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                               
+                                <label class="radiocontainer" >
+                                    <span class="p-three" style="margin-bottom: -50px">Eye Area<span class="question-other-icon"></span></span> 
+                                    <input type="radio" name="radio">
+                                    <span class="checkmark"></span>
+                                  </label>
+                                  
+                            </td>
+                            <td>
+                                <label class="radiocontainer" >
+                                    <span class="p-three" style="margin-bottom: -50px">Bladder and Ureters</span> 
+                                    <input type="radio" name="radio">
+                                    <span class="checkmark"></span>
+                                  </label>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                                <label class="radiocontainer" >
+                                    <span class="p-three" style="margin-bottom: -50px">Breast</span> 
+                                    <input type="radio" name="radio">
+                                    <span class="checkmark"></span>
+                                  </label>
+                            </td>
+                            <td>
+                                <label class="radiocontainer" >
+                                    <span class="p-three" style="margin-bottom: -50px">Skin</span> 
+                                    <input type="radio" name="radio">
+                                    <span class="checkmark"></span>
+                                  </label>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                                <label class="radiocontainer" >
+                                    <span class="p-three" style="margin-bottom: -50px">Other</span> 
+                                    <input type="radio" name="radio">
+                                    <span class="checkmark"></span>
+                                  </label>
+                            </td>
+                            <td>
+                                <label class="radiocontainer" >
+                                    <span class="p-three" style="margin-bottom: -50px">None</span> 
+                                    <input type="radio" name="radio">
+                                    <span class="checkmark"></span>
+                                  </label>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                </form>
+            </div>
+        </div>
+        
+
+        
+        
+        
+
+    </div>
+
+
+    <div class="jumbotron" style="margin-bottom: 0px;">
+        <center>
+            <button class="btn btn-danger btn-rounded">Next</button>
+
+            <p>
+                <span class="backArrow" style="margin-right: 3px;padding-right:3px; padding-top: 3px; display:inline-block;"></span>
+                <span class="skip-to-trial" style="margin-right: 30px;padding-right:3px; padding-top: 3px; display:inline-block;">BACK</span> 
+                <span class="skip-to-trial" style="margin-right: 3px;padding-right:3px; padding-top: 3px; display:inline-block;">SKIP TO TRIALS</span>  
+                <span class="nextArrow" style="margin-left: 3px;padding-right:3px; padding-top: 3px; display:inline-block;">
+            </p>
+            <div style="text-align:center">
+                <span class="pagination-dot-inactive"></span>
+                <span class="pagination-dot-inactive"></span>
+                <span class="pagination-dot"></span>
+                <span class="pagination-dot-inactive"></span>
+                <span class="pagination-dot-inactive"></span>
+                <span class="pagination-dot-inactive"></span>
+                <span class="pagination-dot-inactive"></span>
+            </div>
+        </center>
+    </div>
+
+    <footer>
+        <div  class="container" style="display: block;">
+            <br>
+            <br>
+            <br>
+            <div class="footer-poweredby">
+                <h5 class="footer-poweredby-h5">Powered by</h5>
+                <h1 class="footer-poweredby-h1" >BreastCancerTrials.org</h3>
+            </div>
+            <br>
+            <br>
+
+            
+                <div class="footer-dropdown">
+                    <button 
+                        class="btn dropdown-toggle dropdown-btn footer-dropdown"
+                        type="button" data-toggle="dropdown"
+                        >SPONSORS & PARTNER
+                        <span class="footer-arrow"></span></button>
+                </div>
+          
+            
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="6px" height="7px" viewBox="0 0 6 7" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Triangle</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="MTS-/-Button-/-Next-/-Static" transform="translate(-48.000000, -6.000000)" fill="#046E73">
+            <g id="Group" transform="translate(6.000000, 0.000000)">
+                <g id="Padding-Group-2">
+                    <polygon id="Triangle" transform="translate(45.000000, 9.500000) rotate(-270.000000) translate(-45.000000, -9.500000) " points="45 7 48 12 42 12"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

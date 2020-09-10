@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>MTS/Icon/needle</title>
+    <desc>Created with Sketch.</desc>
+    <g id="MTS/Icon/needle" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <line x1="6.79956358" y1="2.95878124" x2="3.26402967" y2="6.49431514" id="Path-3-Copy" stroke="#046E73" stroke-width="1.6"></line>
+        <path d="M17.984845,7.77959652 L12.584845,7.77959652 L12.584845,20.2658609 L15.220759,22.024067 L17.984845,20.2559498 L17.984845,7.77959652 Z" id="Rectangle" stroke="#046E73" stroke-width="1.6" transform="translate(15.284845, 14.979597) rotate(-45.000000) translate(-15.284845, -14.979597) "></path>
+        <line x1="14.2241848" y1="5.43365497" x2="5.73890341" y2="13.9189363" id="Path-3" stroke="#046E73" stroke-width="1.6"></line>
+        <line x1="4.67824324" y1="4.3729948" x2="10.1782432" y2="9.8729948" id="Path-3" stroke="#046E73" stroke-width="1.6"></line>
+        <line x1="20.2345924" y1="19.929344" x2="25.0274859" y2="24.7222375" id="Path-3-Copy-2" stroke="#046E73" stroke-width="1.6"></line>
+    </g>
+</svg>
