@@ -59,6 +59,12 @@
     font-style: italic;
     color: #565656;
 }
+
+.p-five{
+    font-size: 14px;
+    font-family: Arial;
+    color: #565656;
+}
 .form-checkbox{
     margin-left: 0vw;
 }
@@ -75,37 +81,190 @@ input[type=checkbox] + label {
     display: none;
   }
   
+  
   input[type=checkbox] + label:before {
-    content: "\2713";
-    border: 0.1em solid rgb(211, 205, 205);
-    border-radius: 0.2em;
-    display: inline-block;
-    width: 1.5em;
-    height: 1.5em;
-    padding-left: 0.2em;
-    padding-bottom: 0.3em;
-    margin-right: 0.2em;
-    vertical-align: bottom;
-    color: transparent;
-    transition: .2s;
-  }
+    content: url("../assets/MTSAssets/checkboxes/SVG/checkbox_unchecked.svg");
+    margin-right: 10px;
+}
 
 
   input[type=checkbox]:checked + label:before {
-    background-color: #C8EBEE;
-    border-color: #C8EBEE;
-    color: #fff;
-  }
+    content: url("../assets/MTSAssets/checkboxes/SVG/checkbox_checked.svg");
+    margin-right: 10px;
+}
 
+  
   .question-body{
       margin-bottom: 100px;
   }
 
+  .question-whole{
+    margin: auto;
+    max-width: 450px;
+  }
+
+
+.question-id{
+    position: relative;
+    right: 0px;
+
+    margin: 0px;
+    padding: 0px;
+    font-size: 48px;
+    width: fit-content;
+    font-family: Georgia Bold;
+    font-weight: bold;
+    color: #565656;
+}
+@media only screen and (min-width: 550px) {
+    .question-id{
+        left: 5%;
+    }
+}
+
+@media only screen and (min-width: 650px) {
+    .question-id{
+        left: 7%;
+    }
+}
+
+
+@media only screen and (min-width: 900px) {
+    .question-id{
+        left: 12%;
+    }
+}
+
+
+@media only screen and (min-width: 1150px) {
+    .question-id{
+
+        left: 15%;
+    }
+    .question-whole{
+        margin: auto;
+        max-width: 550px;
+        margin-right: 20%;
+    }
+}
+
+
+@media only screen and (min-width: 1300px) {
+    .question-id{
+        left: 25%;
+    }
+    .question-whole{
+        margin: auto;
+        max-width: 450px;
+        margin-right: 35%;
+    }
+}
+
+
+@media only screen and (min-width: 1500px) {
+    .question-id{
+        /* margin-right: 50%; */
+        /* right: 35%; */
+    }
+    .question-whole{
+        margin: auto;
+        max-width: 450px;
+        margin-right: 45%px;
+    }
+}
+
+
+@media only screen and (min-width: 1600px) {
+    .question-id{
+        /* margin-right: 50%; */
+        left: 22%;
+    }
+    .question-whole{
+        margin: auto;
+        max-width: 450px;
+        margin-right: 35%;
+    }
+}
+
+
+@media only screen and (min-width: 1700px) {
+    .question-id{
+        /* margin-right: 50%; */
+        left: 40%;
+    }
+    .question-whole{
+        margin: auto;
+        max-width: 450px;
+        margin-right: 40%;
+    }
+}
+.question{
+    margin-top: -30px;
+    margin-left: 12vw;
+    margin-bottom: -15px;
+    font-size: 18px;
+    font-family: Georgia;
+    font-weight: bolder;
+    color: #565656;
+}
+
+.question-option{
+    width: 50%;
+    display: inline-block;
+    margin-left: 12vw;
+}
+
+
+.question-inst{
+    margin-left: 12vw;
+    font-family: Arial;
+    font-size: 12px;
+    font-style: italic;
+}
+
+
+
 .skip-to-trial{
-    font-size: 12px;font-family: Arial Bold;font-weight: bold;color: #046e73;margin-top: 5px;
+    font-size: 12px;
+    font-family: Arial Bold;
+    font-weight: bold;color: #046e73;
+    margin-top: 5px;
 }
 .skip-to-trial:hover{
     color: #06A9B3;
+}
+
+.nextArrow{
+    background-image: url("./../assets/checkbox/arrow_forward_static.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 10px;
+    width: 10px;
+}
+
+.nextArrow:hover{
+    background-image: url("../assets/MTSAssets/arrows/SVG/arrow_forward_hover.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 10px;
+    width: 10px;
+}
+
+.backArrow{
+    background-image: url("../assets/MTSAssets/arrows/SVG/arrow_back_static.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 10px;
+    width: 10px;
+}
+
+
+.backArrow:hover{
+    background-image: url("../assets/MTSAssets/arrows/SVG/arrow_back_hover.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 10px;
+    width: 10px;
 }
 
 .btn-rounded{
@@ -150,6 +309,10 @@ footer{
     font-weight: bold;
 }
 
+.footer-arrow{
+    background-image: url("../assets/MTSAssets/arrows/SVG/arrow_down_static.svg");
+}
+
 .dropdown-btn{
     background-color: transparent;
     color: white;
@@ -172,6 +335,7 @@ footer{
     border-radius: 50%;
     display: inline-block;
 }
+
 .pagination-dot-inactive{
     height: 7px;
     width: 7px;
@@ -180,35 +344,271 @@ footer{
     display: inline-block;
 }
 
-.question-id{
-    font-size: 48px;
-    font-family: Georgia Bold;
-    font-weight: bold;
-    color: #565656;
-}
+input[type="date"] {
+    position: relative;
+    padding: 10px;
+  }
+  
+  input[type="date"]::-webkit-calendar-picker-indicator {
+    color: transparent;
+    background: none;
+    z-index: 1;
+  }
+  
+  input[type="date"]:before {
+    color: transparent;
+    background: none;
+    display: block;
+    font-family: 'FontAwesome';
+    content: url("../assets/MTSAssets/icons/SVG/icon_calendar.svg");
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    color: #999;
+  }
+/* input[type="date"]::-webkit-calendar-picker-indicator {
+    color: rgba(0, 0, 0, 0);
+    opacity: 1;
+    display: block;
+    background: url("../assets/MTSAssets/icons/SVG/icon_calendar.svg") no-repeat;
+    width: 30px;
+    height: 30px;
+    border-width: thin;
+} */
 
 
-.question-option{
-    width: 50%;
-    display: inline-block;
-    margin-left: 12vw;
-}
-
-.question{
-    margin-top: -30px;
-    margin-left: 12vw;
-    margin-bottom: -15px;
-    font-size: 18px;
-    font-family: Georgia;
-    font-weight: bolder;
-    color: #565656;
-}
-
-.question-inst{
-    margin-left: 10vw;
-    font-family: Arial;
-    font-size: 12px;
-    font-style: italic;
+.radiocontainer {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    width: 300px;
+    /* -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; */
+  }
+  
+  /* Hide the browser's default radio button */
+  .radiocontainer input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  /* Create a custom radio button */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background: url("../assets/MTSAssets/radiobuttons/SVG/radio_unselected.svg") no-repeat;
     
+  }
+
+  .radiocontainer input:checked ~ .checkmark:after {
+    display: block;
+  }
+  /* When the radio button is checked*/
+  .radiocontainer input:checked ~ .checkmark {
+    background: url("../assets/MTSAssets/radiobuttons/SVG/radio_selected.svg") no-repeat;
+  }
+  
+.question-other-icon{
+    position: relative;
+    background-image: url("../assets/MTSAssets/icons/SVG/icon_question_large_teal.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 18px;
+    width: 18px;
+    top: 3px;
+    left: 3px;
+    margin-right: 3px;padding-right:3px; padding-top: 3px; display:inline-block;
 }
 
+.popup-menupausal{
+    position: relative;
+    background-image: url("../assets/MTSAssets/pop-upinfoboxes/SVG/pop-up_menopause.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 500px;
+    width: max-content;
+    top: -10px;
+    left: 3px;
+    display: none;
+    margin-right: 3px;
+    padding-right:3px;
+    padding-top: 3px;
+    display:inline-block;
+}
+
+
+.inside-popup-menupausal{
+    width:fit-content;
+    display: block;
+    position: relative;
+    top: 90px;
+    left: -5%;
+}
+
+
+@media only screen and (min-width: 550px) {
+    .inside-popup-menupausal{
+        display: block;
+        position: relative;
+        top: 90px;
+        left: -10%;
+    }
+}
+
+@media only screen and (min-width: 650px) {
+    .inside-popup-menupausal{
+        display: block;
+        position: relative;
+        top: 90px;
+        left: -5%;
+    }
+}
+
+
+@media only screen and (min-width: 750px) {
+    .inside-popup-menupausal{
+        display: block;
+        position: relative;
+        top: 90px;
+        left: -20%;
+    }
+}
+
+
+@media only screen and (min-width: 1050px) {
+    .inside-popup-menupausal{
+        display: block;
+        position: relative;
+        top: 90px;
+        left: -25%;
+    }
+}
+
+
+@media only screen and (min-width: 1300px) {
+    .inside-popup-menupausal{
+        display: block;
+        position: relative;
+        top: 90px;
+        left: -35%;
+    }
+}
+
+
+@media only screen and (min-width: 1500px) {
+    .inside-popup-menupausal{
+        display: block;
+        position: relative;
+        top: 90px;
+        left: -35%;
+    }
+}
+
+
+@media only screen and (min-width: 1600px) {
+    .inside-popup-menupausal{
+        display: block;
+        position: relative;
+        top: 90px;
+        left: -35%;
+    }
+}
+
+
+@media only screen and (min-width: 1700px) {
+    .inside-popup-menupausal{
+        display: block;
+        position: relative;
+        top: 90px;
+        left: -40%;
+    }
+}
+
+
+
+
+.inside-popup-menupausal-text{
+    max-width:550px;
+}
+
+
+custom-select {
+    position: relative;
+    font-family: Arial;
+  }
+  
+  .custom-select select {
+    display: none; /*hide original SELECT element: */
+  }
+  
+  .select-selected {
+    background-color: DodgerBlue;
+  }
+  
+  /* Style the arrow inside the select element: */
+  .select-selected:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #fff transparent transparent transparent;
+  }
+  
+  /* Point the arrow upwards when the select box is open (active): */
+  .select-selected.select-arrow-active:after {
+    border-color: transparent transparent #fff transparent;
+    top: 7px;
+  }
+  
+  /* style the items (options), including the selected item: */
+  .select-items div,.select-selected {
+    color: #ffffff;
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+  }
+  
+  /* Style items (options): */
+  .select-items {
+    position: absolute;
+    background-color: DodgerBlue;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+  }
+  
+  /* Hide the items when the select box is closed: */
+  .select-hide {
+    display: none;
+  }
+  
+  .select-items div:hover, .same-as-selected {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+
+.year-select-dropdown{
+    border-radius: 0;
+    padding: 10px 10px 10px 10px;
+    background-color: white;
+    display: block;
+    width: 100px;
+    margin: auto;
+  }
+
+  
