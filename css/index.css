@@ -1,5 +1,13 @@
 *{ box-sizing: border-box; user-select: none; }
 
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    /* overflow-x: hidden;  */
+}
 .header-element {
     display: inline-block;
     width: auto;
@@ -8,8 +16,9 @@
 }
 
 .logo{
+    max-width: 90vw;
     height: 12vh;
-    width: auto;
+    
 }
 
 
