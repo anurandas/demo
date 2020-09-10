@@ -224,6 +224,16 @@ input[type=checkbox] + label {
 }
 
 
+@media only screen and (max-width: 430px) {
+    .question-option{
+        width: 50%;
+        display: inline-block;
+        margin-left: 0vw;
+    }
+    
+}
+
+
 .question-inst{
     margin-left: 12vw;
     font-family: Arial;
