@@ -361,6 +361,7 @@ input[type="date"] {
   }
   
   input[type="date"]::-webkit-calendar-picker-indicator {
+    
     color: transparent;
     background: none;
     z-index: 1;
@@ -379,7 +380,7 @@ input[type="date"] {
     right: 10px;
     color: #999;
   }
-/* input[type="date"]::-webkit-calendar-picker-indicator {
+input[type="date"]::-webkit-calendar-picker-indicator {
     color: rgba(0, 0, 0, 0);
     opacity: 1;
     display: block;
@@ -387,7 +388,7 @@ input[type="date"] {
     width: 30px;
     height: 30px;
     border-width: thin;
-} */
+}
 
 
 .radiocontainer {
