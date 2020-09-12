@@ -65,6 +65,7 @@ html,body
 .p-four{
     font-size: 12px;
     font-family: Arial;
+    font-weight: normal;
     font-style: italic;
     color: #565656;
 }
@@ -73,6 +74,11 @@ html,body
     font-size: 14px;
     font-family: Arial;
     color: #565656;
+}
+.p-one{
+    font-size: 18px;
+    font-family: Georgia;
+    font-weight: bold;
 }
 .form-checkbox{
     margin-left: 0vw;
@@ -101,7 +107,10 @@ input[type=checkbox] + label {
     content: url("../assets/MTSAssets/checkboxes/SVG/checkbox_checked.svg");
     margin-right: 10px;
 }
-
+.check_box_disabled{
+    content: url("../assets/MTSAssets/checkboxes/SVG/checkbox_disabled.svg");
+    margin-right: 10px;
+}
   
   .question-body{
       margin-bottom: 100px;
@@ -437,6 +446,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     top: 3px;
     left: 3px;
     margin-right: 3px;padding-right:3px; padding-top: 3px; display:inline-block;
+    
 }
 
 .popup-menupausal{
@@ -474,22 +484,22 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     }
 }
 
-@media only screen and (min-width: 650px) {
+@media only screen and (min-width: 640px) {
     .inside-popup-menupausal{
         display: block;
         position: relative;
         top: 90px;
-        left: -5%;
+        left: -15%;
     }
 }
 
 
-@media only screen and (min-width: 750px) {
+@media only screen and (min-width: 800px) {
     .inside-popup-menupausal{
         display: block;
         position: relative;
         top: 90px;
-        left: -20%;
+        left: -22%;
     }
 }
 
@@ -509,7 +519,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
         display: block;
         position: relative;
         top: 90px;
-        left: -35%;
+        left: -30%;
     }
 }
 
@@ -621,3 +631,30 @@ custom-select {
   }
 
   
+ .measurable-disease{
+    /* background-image: url("./../assets/MTSAssets/pop-upinfoboxes/SVG/pop-up_measurable_disease.svg"); */
+    background-color:#F4FEFF ;
+    
+    min-height: 70vh;
+
+} 
+
+.inactive-text{
+    width: fit-content;
+    color:#818181 ;
+}
+
+.exitcross-six{
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 25px;
+    width: 25px;
+    margin-top: 35px;
+    background-image: url("./../assets/MTSAssets/icons/SVG/icon_close_teal.svg");
+    float: right;
+    margin-left: 270px;
+}
+
+
+
