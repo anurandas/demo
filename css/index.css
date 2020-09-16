@@ -658,5 +658,19 @@ custom-select {
     margin-left: 270px;
 }
 
+.skip-button{
+    background: url("./../assets/MTSAssets/buttons/SVG/button_next_static.svg") no-repeat;
+    cursor:pointer;
+    border:none;
+    width:110px;
+    height:100px;
+}
 
 
+.skip-button:hover{
+    background: url("./../assets/MTSAssets/buttons/SVG/button_next_hover.svg") no-repeat;
+    cursor:pointer;
+    border:none;
+    width:110px;
+    height:100px;
+}
