@@ -16,6 +16,8 @@ html,body
 }
 
 .logo{
+    display: block;
+    margin: auto;
     max-width: 90vw;
     height: 12vh;
     
