@@ -314,21 +314,28 @@ input[type=checkbox] + label {
 }
 
 .btn-rounded{
+    width: 110px;
+    height: 30px;
     border-radius: 15px;
     font-size: 16px;
-    font-family: Arial Bold;
+    font-family: Arial;
     font-weight: bold;
+    font-size: 12px;
     padding: 2px 35px 2px 35px;
     background-color: #CF4320;
 }
 
 .btn-rounded:hover{
-    /* border-radius: 15px;
+    width: 110px;
+    height: 30px;
+    border-radius: 15px;
     font-size: 16px;
-    font-family: Arial Bold;
+    font-family: Arial;
     font-weight: bold;
-    padding: 2px 30px 2px 30px; */
+    font-size: 12px;
+    padding: 2px 35px 2px 35px;
     background-color: #E6583B;
+    border-color: #E6583B;
 }
 
 footer{
