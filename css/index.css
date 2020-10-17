@@ -345,7 +345,7 @@ input[type=checkbox] + label {
 
 
 .btn-rounded-viewalltrials{
-    
+    color: white;
     border: none;
     height: 30px;
     border-radius: 15px;
@@ -359,6 +359,7 @@ input[type=checkbox] + label {
 }
 
 .btn-rounded-viewalltrials:hover{
+    color: white;
     width: 110px;
     height: 30px;
     border-radius: 15px;
@@ -372,6 +373,7 @@ input[type=checkbox] + label {
     
     border-color: #046E73;
 }
+
 
 footer{
     background-color: #046e73;
@@ -739,4 +741,76 @@ custom-select {
     border:none;
     width:110px;
     height:50px;
+}
+
+
+/* Start page */
+.question-header-start{
+    font-family: Arial;
+    font-weight: bold;
+    color: #046E73;
+    font-size: 18px;
+}
+.question-para-start{
+    font-family: Arial;
+    font-size: 14px;
+    color: #565656;
+}
+.under-red{
+    text-decoration: underline;
+    color: #CF4320;
+}
+.under-red:hover{
+    text-decoration: underline;
+    color: #CF4320;
+    cursor: pointer;
+}
+.question-id-start{
+    font-family: Georgia;
+    font-size: 58px;
+    font-weight: bold;
+}
+
+    
+.circle-start {
+    height: 220px;
+    width: 220px;
+    background-color:#EFEFEF;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+
+.circle-start-one{
+    width: 200px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.circle-text{
+    font-family: Arial;
+    font-size: 14px;
+    color: #046E73;
+    max-width:140px;
+    margin: auto;
+    margin-top: -20px;
+    text-align: center;
+    font-weight: 900;
+}
+
+.circle-down{
+    width: 260px;
+    margin: auto;
+    color: #046E73;
+}
+.heading-start{
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 28px;
+}
+.learn-more{
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 28px;
+    color: #046E73;
 }
