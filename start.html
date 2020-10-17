@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+    
+    .circle-start {
+        height: 220px;
+        width: 220px;
+        background-color:#EFEFEF;
+        border-radius: 50%;
+        display: block;
+        margin: auto;
+    }
+
+    .circle-start-one{
+        width: 200px;
+        margin: auto;
+        margin-top: 40px;
+    }
+
+    .circle-text{
+        font-family: Arial;
+        font-size: 14px;
+        color: #046E73;
+        max-width:140px;
+        margin: auto;
+        margin-top: -20px;
+        text-align: center;
+        font-weight: 900;
+    }
+
+    .circle-down{
+        width: 260px;
+        margin: auto;
+        color: #046E73;
+    }
+    .heading-start{
+        font-family: Georgia;
+        font-weight: bold;
+        font-size: 28px;
+    }
+    .learn-more{
+        font-family: Georgia;
+        font-weight: bold;
+        font-size: 28px;
+        color: #046E73;
+    }
+    table{
+        margin: auto;
+        width: 300px;
+    }
+    .contact{
+        background-image: url("./assets/MTSAssets/icons/SVG/");
+    }
+
+    .question-header{
+        font-family: Arial;
+        font-weight: bold;
+        color: #046E73;
+        font-size: 18px;
+    }
+    .question-para{
+        font-family: Arial;
+        font-size: 14px;
+        color: #565656;
+    }
+    .under-red{
+        text-decoration: underline;
+        color: #CF4320;
+    }
+    .under-red:hover{
+        text-decoration: underline;
+        color: #CF4320;
+        cursor: pointer;
+    }
+    .question-id-start{
+        font-family: Georgia;
+        font-size: 58px;
+        font-weight: bold;
+    }
+</style>
+<body>
+    
+    <!-- Contains Logo of the website -->
+    <div class="header">
+        <img class="logo" src="css/MTSlogo-whiteHorizontal.jpeg" alt="logo">
+    </div>
+
+
+    <!-- Line seperating body and header -->
+    <hr style="border-color:#5CB07D;">
+
+    <!-- question body -->
+    <div class="">
+            <div class="circle-start">
+                   <div class="circle-start-one">
+                        <div style="width: 100px;margin: auto;">
+                            <br>
+                            <p style="margin-top: 10px;">
+                                <span class="question-id-start" style="color: #046E73;display: inline;margin-left: 10px;">37</span>
+                                <span class="question-id-start" style="color: #046E73;display: block;float: right;margin-top: -10px;">8</span>
+                            </p>
+                            
+                        </div>
+                    
+                        <div class="circle-text" >
+                            <p> trials currently available across the United States</p>
+                        </div>
+                   </div>
+                
+            </div>
+    </div>
+    <br>
+    <div class="circle-down">
+        <p class="heading-start" style="text-align: center;margin: 0px;line-height: 30px;">
+            Find a metastatic breast cancer trial that's right for you.
+        </p>
+    </div>
+    
+    <br/>
+
+
+    <!-- pagination section -->
+    <div  style="margin-bottom: 0px;">
+        <center>
+
+            <div class="">
+                <button type="button" 
+                class="btn btn-danger btn-rounded">LOGIN</button>
+            </div>
+            
+            <p class="skip-to-trial start" style="margin-top: 10px;font-family: Arial;font-size: 12px;">PROCEED AS GUEST
+            </p>
+        </center>
+    </div>
+
+    <br><br>
+
+
+    <div class="jumbotron"  style="margin-bottom: 0px;background-color: #EFEFEF;">
+        <center>
+            <p class="learn-more">Learn More</p>
+            <br>
+            <div style="width: 380px;margin: auto;">
+                <div>
+                    <div style="width: auto;float: left;margin-right: 0px;height: 100px;">
+                        <img 
+                        src="assets/MTSAssets/icons/SVG/icon_trials.svg" alt=""
+                        
+                        >
+                    </div>
+                    <div style="width: 265px;text-align: left;">
+                        <p class="question-header" 
+                        style="margin-bottom: -20px;">
+                            New to Clinical Trials?
+                          </p>
+                         <br>
+                        <p class="question-para">
+                            Here's a <span class="under-red">Clinical Trials Primer</span> to get you started.
+                          </p>
+                    </div>
+                </div>
+                <br>
+                <div>
+                    <div style="width: auto;float: left;margin-right: 10px;height: 122px;">
+                        <img 
+                        src="assets/MTSAssets/icons/SVG/icon_mtt.svg" alt="">
+                    </div>
+                    <div style="width: 275px;text-align: left;">
+                        <p class="question-header" 
+                        style="margin-bottom: -20px;">
+                            Why clinical trials are important
+                          </p>
+                         <br>
+                        <p class="question-para">
+                            Visit <span class="under-red"> Metastatic Trial Talk </span>for carefully selected news and features
+                            about metastatic breast cancer research and clinical trials.
+                          </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="">
+                <button type="button" 
+                class="btn btn-danger btn-rounded btn-rounded-viewalltrials" 
+                    >
+                    VIEW ALL TRIALS
+            </button>
+            </div>
+            
+        </center>
+    </div>
+
+
+    <!-- footer -->
+    <footer>
+        <div  class="container" style="display: block;">
+            <br>
+            <br>
+            <br>
+            <div class="footer-poweredby">
+                <h5 class="footer-poweredby-h5">Powered by</h5>
+                <h1 class="footer-poweredby-h1" >BreastCancerTrials.org</h3>
+            </div>
+            <br>
+            <br>
+
+            
+                <div class="footer-dropdown">
+                    <button 
+                        class="btn dropdown-toggle dropdown-btn footer-dropdown"
+                        type="button" data-toggle="dropdown"
+                        >SPONSORS & PARTNER
+                    <span class="footer-arrow"></span></button>
+                </div>
+          
+            
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
